@@ -26,6 +26,17 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 ```
+3. Установите зависимости для клиентской части
+```bash
+cd ../frontend
+nmp install
+```
+4. Примените миграции базы данных:
+```bash
+#Убедитесь, что PostgreSQL запущен.
+cd ../backend
+python manage.py migrate
+```
 ## Использование
 ## Структура проекта
 ## Разработка и вклад
