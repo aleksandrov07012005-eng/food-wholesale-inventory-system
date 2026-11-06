@@ -25,7 +25,7 @@ food-wholesale-inventory-system/
 Проект разрабатывается в рамках дисциплины "Проектная деятельность 3". Если вы нашли ошибку или хотите предложить улучшение:
 1. Создайте Issue с описание проблемы.
 2. Сделайте форк репозитория.
-3. Создайте ветку для новой функции (git checout -b feature/NewFeature).
+3. Создайте ветку для новой функции (git checkout -b feature/NewFeature).
 4. Внесите изменения и закоммитьте их (git commit -m 'New feature added').
 5. Отправьте изменения в ваш форк (git push origin feature/NewFeature).
 6. Откройте Pull Request в основной репозиторий.
