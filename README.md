@@ -15,6 +15,17 @@
 git clone https://github.com/your_username/food-wholesale-inventory-system.git
 cd food-wholesale-inventory-system
 ```
+2. настройте виртуальное окружение для серверной части:
+```bash
+cd backend
+python -m venv venv
+#Активация для Windows
+venv\Scripts\activate
+#Активация для Mac/Linux:
+source venv/bin/activate
+
+pip install -r requirements.txt
+```
 ## Использование
 ## Структура проекта
 ## Разработка и вклад
