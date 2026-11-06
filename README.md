@@ -10,6 +10,7 @@
 * Автономная работа в локальной сети предприятия.
 ## Установка
 Для установки проекта вам потребуется установленный Python 3.10+, Node.js и система управления базами данных PostgreSQL.
+1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/your_username/food-wholesale-inventory-system.git
 cd food-wholesale-inventory-system
