@@ -13,6 +13,7 @@
 ```bash
 git clone https://github.com/your_username/food-wholesale-inventory-system.git
 cd food-wholesale-inventory-system
+```
 ## Использование
 ## Структура проекта
 ## Разработка и вклад
