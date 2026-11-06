@@ -9,45 +9,17 @@
 * Ролевая модель доступа для руководства, коммерческого отдела и складского персонала.
 * Автономная работа в локальной сети предприятия.
 ## Установка
-Для установки проекта вам потребуется установленный Python 3.10+, Node.js и система управления базами данных PostgreSQL.
-1. Клонируйте репозиторий:
-```bash
-git clone https://github.com/your_username/food-wholesale-inventory-system.git
-cd food-wholesale-inventory-system
-```
-2. настройте виртуальное окружение для серверной части:
-```bash
-cd backend
-python -m venv venv
-#Активация для Windows
-venv\Scripts\activate
-#Активация для Mac/Linux:
-source venv/bin/activate
-
-pip install -r requirements.txt
-```
-3. Установите зависимости для клиентской части
-```bash
-cd ../frontend
-nmp install
-```
-4. Примените миграции базы данных:
-```bash
-#Убедитесь, что PostgreSQL запущен.
-cd ../backend
-python manage.py migrate
-```
 ## Использование
-Для запуска проекта в режиме разработки откройте два терминала:
-Терминал 1. Запуск сервера Django:
-```bash
-cd backend
-#Убедитесь, что виртулальное окружение включено
-```
-Терминал 2. Запуск клиента React:
-```bash
-
-```
 ## Структура проекта
+Структура папок в репозитории на данный момент:
+```text
+food-wholesale-inventory-system/
+├── backend/    # Серверная часть на Django
+├── frontend/   # Клиентская часть на React  
+├── ml_module/  # Скрипты машинного обучения
+├── docs/       # Схемы БДЮ скриншоты, документация
+├── .gitignore  # Файлы, игнорируемые Git
+├──README.md    # Описание проекта
+```
 ## Разработка и вклад
 ## Лицензия
