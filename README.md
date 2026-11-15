@@ -15,6 +15,7 @@
 ```text
 food-wholesale-inventory-system/
 ├── backend/    # Серверная часть на Django
+├── diagrams/   # UML-диаграммы
 ├── frontend/   # Клиентская часть на React  
 ├── ml_module/  # Скрипты машинного обучения
 ├── docs/       # Схемы БД, скриншоты, документация
